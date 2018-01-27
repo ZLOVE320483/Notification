@@ -6,5 +6,39 @@
     android:orientation="vertical"
     tools:context="com.github.notification.MainActivity">
 
+    <Button
+        android:id="@+id/simple_notify"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Simple Notification"/>
 
+    <Button
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Progress"/>
+
+    <Button
+        android:id="@+id/big_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Big Text"/>
+
+    <Button
+        android:id="@+id/inbox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="INBOX"/>
+
+    <Button
+        android:id="@+id/big_picture"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Big Picture"/>
+
+    <Button
+        android:id="@+id/hangup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HangUp"/>
 </LinearLayout>
